@@ -16,7 +16,7 @@ header{
     width: 100%;
     height: 80px;
     line-height: 80px;
-    padding: .5rem 1rem;
+    /* padding: 1rem 1rem; */
 }
 
 body{
@@ -31,8 +31,17 @@ body{
     float: right;
 }
 
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
 .logo{
     margin-right: 1.5rem;
+    padding: 0 1rem;
 }
 
 header nav.main-nav ul li{
@@ -45,7 +54,8 @@ header nav.main-nav ul li{
 header nav.main-nav ul li a{
     text-decoration: none;
     color: black;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 .btn-blue{
@@ -58,5 +68,19 @@ header nav.main-nav ul li a{
 #jumbotron{
     background-color: #b4d0e7;
     width: 100%;
-    height: 500px;
+    height: 600px;
+}
+
+section#jumbotron div.container{
+    width: 85%;
+    min-width: 980px;
+    margin: 0 auto;
+    left: 150px;
+    top: 100px;
+}
+
+section#jumbotron div.container h1{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
 }
