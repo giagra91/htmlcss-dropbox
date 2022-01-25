@@ -12,15 +12,14 @@
     clear: both;
 }
 
-header{
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body>header{
     width: 100%;
     height: 80px;
     line-height: 80px;
-    /* padding: 1rem 1rem; */
-}
-
-body{
-    font-family: 'Open Sans', sans-serif;
 }
 
 .float-left{
@@ -116,11 +115,12 @@ div.image-jumbotron img{
 
 .main-section h2{
     margin-bottom: 50px;
-    font-size: 2.3rem;
+    font-size: 2.6rem;
 }
 
 .flag{
     width: 100%;
+    margin-bottom: 35px;
 }
 
 .radio-subscription{
@@ -130,14 +130,30 @@ div.image-jumbotron img{
 }
 
 .aside{
+    border: 1px solid grey;
     width: calc(100% / 3);
     height: 800px;
-    background-color: crimson;
 }
 
 .aside>header{
+    height: 40px;
     text-align: center;
-    padding: 0;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.aside>main{
+    padding: 25px;
+}
+
+.aside main h3,
+.aside main h4{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.aside main p{
+    color: blue;
 }
 
 #jumbotron{
