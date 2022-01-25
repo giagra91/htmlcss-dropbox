@@ -47,7 +47,7 @@ body{
 header nav.main-nav ul li{
     list-style-type: none;
     display: inline;
-    margin-right: 1.2rem;
+    margin-right: 1.5rem;
     vertical-align: middle;
 }
 
@@ -63,6 +63,11 @@ header nav.main-nav ul li a{
     color: white;
     display: inline;
     padding: 7px 20px;
+    text-decoration: none;
+}
+
+nav.main-nav li a.btn-blue{
+    color: white;
 }
 
 #jumbotron{
@@ -76,11 +81,25 @@ section#jumbotron div.container{
     min-width: 980px;
     margin: 0 auto;
     left: 150px;
-    top: 100px;
+    top: 90px;
 }
 
 section#jumbotron div.container h1{
     font-size: 5rem;
     font-weight: bold;
     margin-bottom: 50px;
+}
+
+div.paragraph{
+    width: 30%;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+div.paragraph p{
+    margin-bottom: 35px;
+}
+
+a.btn-blue{
+    margin-bottom: 30px;
 }
