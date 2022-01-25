@@ -105,3 +105,15 @@ div.paragraph p{
     color: black;
 }
 
+
+div.image-jumbotron{
+    left: 450px;
+}
+
+div.image-jumbotron img{
+    width: 90%;
+}
+
+#delete{
+    margin: 1rem 0 1.5rem;
+}
