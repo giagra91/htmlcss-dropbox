@@ -153,6 +153,7 @@ div.footer-card{
     height: 250px;
     min-width: 100%;
     margin-top: 50px;
+    margin-bottom: 150px;
 }
 
 div.footer-card div.call{
@@ -178,9 +179,9 @@ div.card>main{
     font-weight: 500;
 }
 
-div.card main h3{
+div.card main h3,
+div.aside-article h4{
     font-size: 1.5rem;
-    /* margin-bottom: 15px; */
 }
 
 div.card main h4{
@@ -234,6 +235,35 @@ div.card main div.plan-features .fas{
 div.card main .fas,
 div.card main .far{
     margin-right: 5px;
+}
+
+div.central-image{
+    width: 55%;
+}
+
+div.central-image img{
+    width: 100%;
+}
+
+div.aside-article{
+    width: 40%;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+div.aside-article p{
+    font-weight: 600;
+    margin: 25px 0;
+    line-height: 1.8rem;
+}
+
+div.aside-article a{
+    height: 50px;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
 }
 
 #delete{
