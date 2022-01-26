@@ -138,8 +138,9 @@ div.image-jumbotron img{
 
 div.card{
     border: 1px solid grey;
-    width: 30%;
-    height: 800px;
+    width: 27%;
+    height: 900px;
+    min-width: 305px;
 }
 
 div.card>header{
@@ -193,8 +194,15 @@ div.card main div.plan-features {
     margin: 2.5rem 0;
 }
 
-
+section.main-section div.card div.plan-advantages ul li,
 div.card main div.plan-features ul li{
+    text-indent: -10px;
+    padding-left: 20px;
+    line-height: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+div.card main ul li{
     list-style-type: none;
 }
 
