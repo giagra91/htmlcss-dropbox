@@ -38,9 +38,13 @@ body>header{
     position: absolute;
 }
 
-.logo{
+nav.logo{
     margin-right: 1.5rem;
     padding: 0 1rem;
+}
+
+nav.logo img{
+    vertical-align: middle;
 }
 
 header nav.main-nav ul li{
@@ -180,13 +184,10 @@ div.card>main{
 }
 
 div.card main h3,
-div.aside-article h4{
+div.aside-article h4,
+div.little-card h4{
     font-size: 1.5rem;
 }
-
-div.card main h4{
-}
-
 
 div.card main p{
     font-size: 0.85rem;
@@ -239,6 +240,7 @@ div.card main .far{
 
 div.central-image{
     width: 55%;
+    margin-bottom: 100px;
 }
 
 div.central-image img{
@@ -264,6 +266,28 @@ div.aside-article a{
     color: black;
     text-decoration: none;
     border: 1px solid black;
+}
+
+section.row{
+    margin-bottom: 100px;
+}
+
+div.little-card{
+    width: 30%;
+}
+
+div.little-card img{
+    width: 100%;
+}
+
+div.little-card .central-card{
+    margin: 0 50px;
+}
+
+div.little-card p{
+    font-weight: 500;
+    margin: 25px 0;
+    line-height: 1.4rem;
 }
 
 #delete{
