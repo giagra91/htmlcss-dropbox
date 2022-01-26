@@ -116,6 +116,7 @@ div.image-jumbotron img{
 
 .main-section{
     width: 75%;
+    min-width: 1140px;
     background-color: lightblue;
     margin: 0 auto;
 }
@@ -138,9 +139,13 @@ div.image-jumbotron img{
 
 div.card{
     border: 1px solid grey;
-    width: 27%;
+    width: 30%;
     height: 900px;
     min-width: 305px;
+}
+
+.central-card{
+    margin: 0 56.9px;
 }
 
 div.card>header{
