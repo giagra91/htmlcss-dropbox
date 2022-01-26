@@ -54,7 +54,7 @@ header nav.main-nav ul li a{
     text-decoration: none;
     color: black;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .btn-blue{
@@ -101,9 +101,8 @@ div.paragraph p{
     margin-bottom: 35px;
 }
 
-header i.far{
-    color: black;
-    font-weight: 500;
+div.paragraph i.fas{
+    font-size: 2.5rem;
 }
 
 
@@ -116,7 +115,7 @@ div.image-jumbotron img{
 }
 
 .main-section{
-    width: 65%;
+    width: 75%;
     background-color: lightblue;
     margin: 0 auto;
 }
@@ -151,9 +150,10 @@ div.card>header{
 }
 
 div.card>main{
-    padding: 25px;
+    padding: 30px;
     line-height: 2.2rem;
     font-size: 0.85rem;
+    font-weight: 500;
 }
 
 div.card main h3{
@@ -168,6 +168,43 @@ div.card main h4{
 div.card main p{
     font-size: 0.85rem;
     color: grey;
+}
+
+div.card  div.try{
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+div.card  div.try a.btn-blue{
+    height: 50px;
+    padding: 0.5rem 2.5rem;
+}
+
+div.card  span.buy-now a{
+    color: #0061ff;
+}
+
+div.card span.buy{
+    border-bottom: 1px solid black;
+    padding-bottom: 1.5rem;
+}
+
+div.card main div.plan-features {
+    margin: 2.5rem 0;
+}
+
+
+div.card main div.plan-features ul li{
+    list-style-type: none;
+}
+
+div.card main div.plan-features .fas{
+    color: #0061ff;
+}
+
+div.card main .fas,
+div.card main .far{
+    margin-right: 5px;
 }
 
 #delete{
