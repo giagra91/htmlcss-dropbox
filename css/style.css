@@ -358,6 +358,30 @@ section.partner-info{
     background-color:  #FF1C1C;
 }
 
+.partner-quarter#fifth{
+    width: 50%;
+    height: 50%;
+    background-color:  #D5001F;
+}
+
+.partner-quarter#sixth{
+    width: 50%;
+    height: 50%;
+    background-color:  #B4D0E7;
+}
+
+.partner-quarter#seventh{
+    width: 50%;
+    height: 50%;
+    background-color:  #0D2481;
+}
+
+.partner-quarter#eighth{
+    width: 50%;
+    height: 50%;
+    background-color:  #FFD830;
+}
+
 .partner-image{
     width: 100%;
     height: 100%;
