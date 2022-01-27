@@ -180,20 +180,20 @@ div.card>header{
     margin-right: 5px;
 }
 
-div.card>main{
+div.card>div.main{
     padding: 30px;
     line-height: 2.2rem;
     font-size: 0.85rem;
     font-weight: 500;
 }
 
-div.card main h3,
+div.card div.main h3,
 div.aside-article h4,
 div.little-card h4{
     font-size: 1.5rem;
 }
 
-div.card main p{
+div.card div.main p{
     font-size: 0.85rem;
     color: grey;
 }
@@ -217,28 +217,28 @@ div.card span.buy{
     padding-bottom: 1.5rem;
 }
 
-div.card main div.plan-features {
+div.card div.main div.plan-features {
     margin: 2.5rem 0;
 }
 
 section.main-section div.card div.plan-advantages ul li,
-div.card main div.plan-features ul li{
+div.card div.main div.plan-features ul li{
     text-indent: -10px;
     padding-left: 20px;
     line-height: 1.5rem;
     margin-bottom: 0.8rem;
 }
 
-div.card main ul li{
+div.card div.main ul li{
     list-style-type: none;
 }
 
-div.card main div.plan-features .fas{
+div.card div.main div.plan-features .fas{
     color: #0061ff;
 }
 
-div.card main .fas,
-div.card main .far{
+div.card div.main .fas,
+div.card div.main .far{
     margin-right: 5px;
 }
 
@@ -318,7 +318,7 @@ div.partner-title a{
 }
 
 section.partner-info{
-    min-width: 1519;
+    min-width: 1519px;
 }
 
 .partner-logo{
