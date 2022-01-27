@@ -124,8 +124,7 @@ div.image-jumbotron img{
     margin: 0 auto;
 }
 
-.main-section h2,
-div.partner-title h2{
+.main-section h2{
     margin-bottom: 50px;
     font-size: 2.6rem;
 }
@@ -298,17 +297,41 @@ div.little-card p{
 section.partner{
     width: 100%;
     height: 500px;
+    left: 20%;
     background-color: coral;
 }
 
 div.partner-title{
-    width: 48%;
-    margin: 0 auto;
-    background-color: cyan;
+    width: 40%;
+    min-width: 600px;
+    left: 20%;
+}
+
+div.partner-title h2{
+    margin-bottom: 30px;
+    font-size: 2.6rem;
 }
 
 div.partner-title a{
     color: #0061ff;
+}
+
+.partner-logo{
+    width: 30vw;
+    height: 30vw;
+    background-color: green;
+}
+
+.partner-image{
+    width: 50%;
+    height: 50%;
+    background-color: greenyellow;
+}
+
+.partner-image img{
+    width: 50%;
+    left: 50%;
+    top: 50%;
 }
 
 #delete{
