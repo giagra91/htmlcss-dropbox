@@ -403,6 +403,36 @@ section.partner-info{
     height: 100%;
 }
 
+section.partner-info div.become-partner{
+    width: 100%;
+    height: 350px;
+    background-color: #B4D0E7;
+}
+
+section.partner div.become-partner h2{
+    font-size: 2.6rem;
+    color: #61082b;
+}
+
+section.partner div.become-partner a{
+    background-color: #FFFFFF;
+    color: #2C2C2C;
+    padding: 8px 50px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+section.partner div.become-partner-title{
+    width: 40%;
+    top: 50%;
+    left: 15%;
+}
+
+section.partner div.become-partner a{
+    top: 50%;
+    right: 15%;
+}
+
 img.svg{
     width: 50%;
     left: 50%;
