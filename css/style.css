@@ -322,16 +322,20 @@ div.partner-title a{
     background-color: green;
 }
 
-.partner-image{
+.partner-quarter#first{
     width: 50%;
     height: 50%;
-    background-color: greenyellow;
+    background-color:  #a2d39b;
+    border: 10px solid #d0e9cd;
+
 }
 
-.partner-image img{
+.partner-image img.svg{
     width: 50%;
     left: 50%;
     top: 50%;
+    filter: invert(1);
+    transform: translate(-50%, -50%);
 }
 
 #delete{
