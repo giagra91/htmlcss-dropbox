@@ -298,7 +298,6 @@ section.partner{
     width: 100%;
     height: 500px;
     left: 20%;
-    background-color: coral;
 }
 
 div.partner-title{
@@ -324,13 +323,30 @@ section.partner-info{
 .partner-logo{
     width: 30vw;
     height: 30vw;
-    background-color: green;
 }
 
 .partner-logo-quote{
     width: 38.9vw;
     height: 30vw;
-    background-color: blue;    
+    padding: 3rem;
+    background-color: #F5F5F5;    
+}
+
+.partner-logo-quote div.header{
+    width: 15%;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+.partner-logo-quote div.header img{
+    width: 150px;
+}
+
+.partner-logo-quote div.main p,
+.partner-logo-quote div.footer p{
+    margin-top: 2.5rem;
+    font-weight: 500;
+    line-height: 1.4rem;
 }
 
 .partner-quarter#first{
