@@ -57,6 +57,10 @@ header nav.main-nav ul li{
     vertical-align: middle;
 }
 
+header nav.main-nav ul li:hover{
+    text-decoration: underline;
+}
+
 header nav.main-nav ul li a{
     text-decoration: none;
     color: black;
