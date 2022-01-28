@@ -495,6 +495,15 @@ footer div.footer-links ul li{
     line-height: 1.5rem;
 }
 
+footer div.footer-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer div.footer-links ul li a:hover{
+    text-decoration: underline;
+}
+
 footer div.footer-links .footer-menu{
     width: 20%;
 }
