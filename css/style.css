@@ -523,8 +523,9 @@ footer div.footer-links .footer-menu h3{
 
 footer div.footer-links div.select-language{
     bottom: 0;
-    width: 10%;
+    width: 7%;
     padding: 2rem 0;
+    border-top: 1px solid #333333;
     color: #333333;
 }
 
