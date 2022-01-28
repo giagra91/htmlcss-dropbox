@@ -471,8 +471,12 @@ section.faq-section span.window-faq-arrow i.fas{
     padding-right: 1rem;
 }
 
-section.faq-section p{
+section.faq-section .plan-differences{
     display: none;
+}
+
+.faq-question:hover + .plan-differences{
+    display: block;
 }
 
 footer{
