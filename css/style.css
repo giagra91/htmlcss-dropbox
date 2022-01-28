@@ -73,6 +73,10 @@ header nav.main-nav ul li a{
     font-weight: 500;
 }
 
+.btn-blue:hover{
+    background-color: #4687f0;
+}
+
 nav.main-nav li a.btn-blue{
     color: white;
 }
