@@ -500,6 +500,9 @@ section.faq-section span.window-faq-arrow i.fas{
 }
 
 section.faq-section .plan-differences{
+    width: 90%;
+    font-size: 0.9rem;
+    color: grey;
     display: none;
 }
 
